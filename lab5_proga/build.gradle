@@ -1,0 +1,32 @@
+plugins {
+    id 'application'
+}
+
+group 'ru.alina.itmo.prog'
+version '1.0-SNAPSHOT'
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'com.google.code.gson:gson:2.10.1'
+}
+
+application  {
+    mainClass = 'ru.alina.itmo.prog.Main'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
