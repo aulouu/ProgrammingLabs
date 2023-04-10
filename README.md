@@ -1,2 +1,3 @@
 # ProgrammingLabs
-I want to cry :(( and sleep...
+Лабы 1 сема по проге 
+P.S. очень легко
