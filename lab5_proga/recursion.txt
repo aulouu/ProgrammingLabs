@@ -1,4 +1,0 @@
-Info
-Show
-ExecuteScript one.txt
-Show
